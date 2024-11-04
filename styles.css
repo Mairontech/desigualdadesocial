@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2C3E50; /* Cor mais escura para um tema sério */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo p {
+    font-size: 0.9em;
+    margin: 5px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #D5DBDB; /* Cor neutra para a seção hero */
+}
+
+.hero h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.hero p {
+    color: #555;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #E74C3C; /* Cor de destaque */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.feature {
+    max-width: 30%;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #2C3E50; /* Cor mais escura para o rodapé */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
